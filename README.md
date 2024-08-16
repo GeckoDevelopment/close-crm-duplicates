@@ -8,3 +8,5 @@ To use it you will need to place your API-Key from Close in line 7 of the search
 Also you might have to adjust the limit of fetched Leads in Line 121. Currently its set to 4000 Leads.
 
 To run the script install the dependencies from the requirements.txt with `pip install -r requirements.txt`. Then run the script using: `python search_dups.py`
+
+The output will then give you any found duplicates and the reason for it.
