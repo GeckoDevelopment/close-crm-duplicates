@@ -4,8 +4,7 @@ from itertools import combinations
 from urllib.parse import urlparse, parse_qs, urlunparse
 
 # Replace 'YOUR_API_KEY' with your actual Close CRM API key
-
-API_KEY = 'api_4kykYdCUSrIlYgTYIYo8ZE.57AaX8GqQg9r0z9E4DVtJc'
+API_KEY = ''
 BASE_URL = 'https://api.close.com/api/v1/lead/'
 
 
