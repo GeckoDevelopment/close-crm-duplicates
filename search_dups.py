@@ -63,7 +63,7 @@ def find_duplicates(leads):
 
         contacts = lead.get('contacts', [])
         lead_urls = [lead.get('url', '').strip().lower()] if lead.get('url') else []
-        lead_urls.extend(url.get('url').strip().lower() for contact in contacts for url in contact.get('integration_links', []))
+        #lead_urls.extend(url.get('url').strip().lower() for contact in contacts for url in contact.get('integration_links', []))
         lead_urls = list(filter(None, lead_urls))  # Remove empty URLs
         lead_urls = [normalize_url(url) for url in lead_urls]  # Normalize URLs
 
